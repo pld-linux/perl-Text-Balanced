@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Balanced
+%define		pdir	Text
+%define		pnam	Balanced
 Summary:	Text::Balanced - extract delimited text sequences from strings
 Summary(pl):	Text::Balanced - wydzielanie z ³añcuchów rozgraniczonych ci±gów tekstowych
 Name:		perl-Text-Balanced
