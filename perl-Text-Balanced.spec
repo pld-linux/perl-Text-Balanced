@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Balanced
-Summary:	Text-Balanced perl module
-Summary(pl):	Modu³ perla Text-Balanced
+Summary:	Text::Balanced - extract delimited text sequences from strings
+Summary(pl):	Text::Balanced - wydzielanie z ³añcuchów rozgraniczonych ci±gów tekstowych
 Name:		perl-Text-Balanced
-Version:	1.90
+Version:	1.89
 Release:	1
-Copyright:	GPL
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source:		http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
@@ -18,10 +18,12 @@ BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Balanced - extracts delimited text sequences from strings. 
+Text::Balanced Perl module - extract delimited text sequences from
+strings.
 
 %description -l pl
-Text-Balanced - wydobywa okre¶lone sekwencje tekstu z ³añcuchów.
+Modu³ Perla Text::Balanced - wydzielanie z ³añcuchów rozgraniczonych
+ci±gów tekstowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
