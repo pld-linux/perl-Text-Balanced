@@ -10,7 +10,8 @@ Summary(pl):	Text::Balanced - wydzielanie z ³añcuchów rozgraniczonych ci±gów tek
 Name:		perl-Text-Balanced
 Version:	1.95
 Release:	1
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:		http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1372379bb5cf036d8e8364ce9bfca27d
