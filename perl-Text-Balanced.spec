@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Balanced
 Summary:	Text::Balanced - extract delimited text sequences from strings
-Summary(pl):	Text::Balanced - wydzielanie z ³añcuchów rozgraniczonych ci±gów tekstowych
+Summary(pl.UTF-8):   Text::Balanced - wydzielanie z Å‚aÅ„cuchÃ³w rozgraniczonych ciÄ…gÃ³w tekstowych
 Name:		perl-Text-Balanced
 Version:	1.98
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text::Balanced Perl module - extract delimited text sequences from
 strings.
 
-%description -l pl
-Modu³ Perla Text::Balanced - wydzielanie z ³añcuchów rozgraniczonych
-ci±gów tekstowych.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Text::Balanced - wydzielanie z Å‚aÅ„cuchÃ³w rozgraniczonych
+ciÄ…gÃ³w tekstowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
