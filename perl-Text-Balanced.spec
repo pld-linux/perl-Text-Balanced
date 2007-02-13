@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Balanced
 Summary:	Text::Balanced - extract delimited text sequences from strings
-Summary(pl.UTF-8):   Text::Balanced - wydzielanie z łańcuchów rozgraniczonych ciągów tekstowych
+Summary(pl.UTF-8):	Text::Balanced - wydzielanie z łańcuchów rozgraniczonych ciągów tekstowych
 Name:		perl-Text-Balanced
 Version:	1.98
 Release:	1
