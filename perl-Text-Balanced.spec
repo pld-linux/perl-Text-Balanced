@@ -8,13 +8,13 @@
 Summary:	Text::Balanced - extract delimited text sequences from strings
 Summary(pl.UTF-8):	Text::Balanced - wydzielanie z łańcuchów rozgraniczonych ciągów tekstowych
 Name:		perl-Text-Balanced
-Version:	2.02
+Version:	2.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f1f2257693b33f534db196161b92f6db
+# Source0-md5:	891fa8a0f20307a5f22ac1fdd0ce565b
 URL:		http://search.cpan.org/dist/Text-Balanced/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
