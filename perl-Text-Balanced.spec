@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Balanced
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Balanced - extract delimited text sequences from strings
 Summary(pl.UTF-8):	Text::Balanced - wydzielanie z łańcuchów rozgraniczonych ciągów tekstowych
 Name:		perl-Text-Balanced
